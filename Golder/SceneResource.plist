@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scene_0</key>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>obj_0</key>
+		<dict>
+			<key>id</key>
+			<integer>0</integer>
+			<key>rect</key>
+			<dict>
+				<key>height</key>
+				<integer>0</integer>
+				<key>width</key>
+				<integer>0</integer>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>door_0</key>
+		<dict>
+			<key>to_type</key>
+			<integer>0</integer>
+			<key>id</key>
+			<integer>0</integer>
+			<key>to_id</key>
+			<integer>0</integer>
+			<key>rect</key>
+			<dict>
+				<key>height</key>
+				<integer>80</integer>
+				<key>width</key>
+				<integer>100</integer>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
