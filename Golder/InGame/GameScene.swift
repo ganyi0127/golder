@@ -13,6 +13,8 @@ class GameScene: SKScene {
     
     private var lastUpdateTime : TimeInterval = 0
     
+    private var menu = MenuNode()
+    
     //MARK:- init------------------------------------------------
     override func sceneDidLoad() {
 
@@ -28,13 +30,20 @@ class GameScene: SKScene {
     }
     
     private func createContents(){
-        let node = SKSpriteNode(color: .blue, size: CGSize(width: 887, height: 299))
-        node.position = CGPoint(x: 200, y: 200)
-        addChild(node)
+        setMenu()
     }
     
     //MARK:- 设置界面
     private func setMenu() {
+        
+        addChild(menu)
+        
+        //读取存档
+        loadNodes(withSceneId: 0)
+    }
+    
+    //MARK:- 载入场景元素
+    func loadNodes(withSceneId scendId: UInt8) {
         
     }
     

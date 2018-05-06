@@ -19,6 +19,9 @@
 		32189F0B209B331900DEDFF5 /* GolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32189F0A209B331900DEDFF5 /* GolderUITests.swift */; };
 		32189F1A209B34C200DEDFF5 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32189F19209B34C200DEDFF5 /* Configure.swift */; };
 		32189F1C209B3D6800DEDFF5 /* SceneResource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32189F1B209B3D6800DEDFF5 /* SceneResource.plist */; };
+		C37FA05C209F557A00C09C9F /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37FA05B209F557A00C09C9F /* MenuScene.swift */; };
+		C37FA05E209F567A00C09C9F /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C37FA05D209F567A00C09C9F /* MenuScene.sks */; };
+		C37FA063209F570A00C09C9F /* MenuNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37FA062209F570A00C09C9F /* MenuNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		32189F0C209B331900DEDFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32189F19209B34C200DEDFF5 /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
 		32189F1B209B3D6800DEDFF5 /* SceneResource.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SceneResource.plist; sourceTree = "<group>"; };
+		C37FA05B209F557A00C09C9F /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		C37FA05D209F567A00C09C9F /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		C37FA062209F570A00C09C9F /* MenuNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +113,8 @@
 		32189EE3209B331700DEDFF5 /* Golder */ = {
 			isa = PBXGroup;
 			children = (
-				32189EEA209B331700DEDFF5 /* GameScene.swift */,
+				C37FA060209F56CE00C09C9F /* InMenu */,
+				C37FA05F209F56C100C09C9F /* InGame */,
 				32189F1B209B3D6800DEDFF5 /* SceneResource.plist */,
 				32189F18209B349C00DEDFF5 /* SupportingFiles */,
 			);
@@ -136,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				32189EE4209B331700DEDFF5 /* AppDelegate.swift */,
-				32189EE6209B331700DEDFF5 /* GameScene.sks */,
 				32189EE8209B331700DEDFF5 /* Actions.sks */,
 				32189EEC209B331700DEDFF5 /* GameViewController.swift */,
 				32189EEE209B331700DEDFF5 /* Main.storyboard */,
@@ -146,6 +152,33 @@
 				32189F19209B34C200DEDFF5 /* Configure.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C37FA05F209F56C100C09C9F /* InGame */ = {
+			isa = PBXGroup;
+			children = (
+				32189EE6209B331700DEDFF5 /* GameScene.sks */,
+				32189EEA209B331700DEDFF5 /* GameScene.swift */,
+				C37FA061209F56F200C09C9F /* menu */,
+			);
+			path = InGame;
+			sourceTree = "<group>";
+		};
+		C37FA060209F56CE00C09C9F /* InMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C37FA05D209F567A00C09C9F /* MenuScene.sks */,
+				C37FA05B209F557A00C09C9F /* MenuScene.swift */,
+			);
+			path = InMenu;
+			sourceTree = "<group>";
+		};
+		C37FA061209F56F200C09C9F /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				C37FA062209F570A00C09C9F /* MenuNode.swift */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +291,7 @@
 				32189EF5209B331800DEDFF5 /* LaunchScreen.storyboard in Resources */,
 				32189EE9209B331700DEDFF5 /* Actions.sks in Resources */,
 				32189F1C209B3D6800DEDFF5 /* SceneResource.plist in Resources */,
+				C37FA05E209F567A00C09C9F /* MenuScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +318,9 @@
 			files = (
 				32189F1A209B34C200DEDFF5 /* Configure.swift in Sources */,
 				32189EEB209B331700DEDFF5 /* GameScene.swift in Sources */,
+				C37FA05C209F557A00C09C9F /* MenuScene.swift in Sources */,
 				32189EED209B331700DEDFF5 /* GameViewController.swift in Sources */,
+				C37FA063209F570A00C09C9F /* MenuNode.swift in Sources */,
 				32189EE5209B331700DEDFF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
